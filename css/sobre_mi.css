@@ -1,0 +1,62 @@
+/* Estilos para la imagen */
+.sobre_mi{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-top: 3rem;
+    padding-bottom: 3rem;
+
+		
+}
+
+.img_me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+	width: 20%;
+}
+
+.sobre_mi__target {
+	margin-bottom: 20px;
+}
+  
+img{
+	display: block;
+	max-width: 100%;
+	border-radius: 80%;
+	border: 5px solid black;
+	margin: 60px 528px; 	
+}
+
+/* Estilos para el título del nombre */
+
+.sobre_mi__name{
+	color: #D3D3D3;
+	font-size: 2rem;
+	font-family: var(--montserrat, cursiv);
+	display: block;
+ 	font-weight: bold;
+	text-align: center;
+	margin: 1rem 0;
+}
+
+span{
+	color: #D3D3D3;
+	font-size: 16px;
+	font-family: var(--montserrat);
+	display: block;
+ 	font-weight: bold;
+	text-align: center;
+}
+
+
+
+@media screen and (max-width: 746px){
+    .img_me{
+		max-width: 100%;
+		width: 50%;
+	
+    }
+}

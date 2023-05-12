@@ -1,0 +1,23 @@
+
+/* Estilo para el pie de página */
+.rodapie {
+    
+    font-size: 15px;
+    color: #909497;
+    grid-area: rodapie;
+    padding: 0.1rem;
+    text-align: center;
+    bottom: 0;
+    width: 100%; 
+    position: fixed;
+
+}
+
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

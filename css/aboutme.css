@@ -1,0 +1,117 @@
+.about_me{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+/*Estilo para la sección acerca de mí */
+.about_me__titulo{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.85rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: justify;
+    margin-bottom: 1.25rem;
+}
+
+
+.about_me__contenido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.about_me__parrafo{
+    color: #D3D3D3;
+    font-size: 1rem;
+    font-family: var(--montserrat);
+    line-height: normal;
+    margin: auto;
+	text-align: justify;
+    width: 90%;
+}
+
+/* .about_me__prhase{
+    font-size: 1rem;
+    line-height: normal;
+    margin: 1 auto 2.5rem;
+    color: #D3D3D3;
+	font-family: var(--montserrat);
+    text-align: center;
+} */
+
+.about_me__curriculm{
+    color: #D3D3D3;
+    font-size: 1rem;
+    font-family: var(--montserrat);
+    line-height: normal;
+    margin: auto;
+	text-align: center;
+}
+
+.contact_nav_link{
+    padding: 10px;
+	margin-bottom: 10px;
+	color: #9799A6;
+	background-color: #FFF;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+
+	border-bottom: 1px solid #D3D3D3;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+	margin: auto;
+    padding: 0.5rem 3rem;
+    text-decoration: none;
+	color: inherit;
+    padding-left: 0.01px;
+
+}
+
+.contact ul li{
+    display: inline-block;
+   
+
+}    
+    
+.contact_nav_link{
+    border-radius: 5px;
+	border: 1px solid #5e584c;
+    font-weight: 100;
+    font-size: 0.8rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    margin-bottom: 1.40rem;
+    padding: .5rem 1.2rem;
+    
+}
+
+.contact_nav_link:hover{
+    color: #FFF;
+	background-color: #c78c19;
+    
+}
+
+.contact_nav_link{width: auto;
+	margin:  6px -6px 0 6px;
+    
+}
+
+
+.technical_skills{
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    line-height: normal;
+    margin: 0 auto 1.8rem;
+    padding: 0.1rem;
+    text-align: center;    
+}

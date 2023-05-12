@@ -1,0 +1,103 @@
+.projects{
+
+    display: flex; /*alinear los elementos uno del lado del otro */
+    flex-wrap: wrap; /*cambiar los elementos en columnas*/  
+  
+}
+
+
+.project{
+    background: #222426;;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+
+.project__boton{
+    background: #c78c19;
+    border: none;
+    border-radius: 5px;
+    color: #222426;
+    width: 100%;
+    font-size: 1rem;
+    align-items: center; 
+    padding: 0.85em 1.5em;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.project__descripcion{
+    font-size: 1.05rem;
+    line-height: 1.5;
+    text-align: justify;
+    color: #D3D3D3;
+    height: 230px;
+}
+
+.project__contenido{
+    padding: 1rem;
+}
+
+.project__titulo{
+    font-size: 1.4375rem;
+    color: #D3D3D3;
+    font-weight: bold;
+    height: 140px;
+}
+
+
+.project__imagen{
+    height: 200px;
+    border: 4px solid black;
+}
+
+.project__boton:hover{
+    text-emphasis: none;
+    text-decoration: underline;
+
+}
+
+/*Haciendo responsiva a las imagenes de recetas*/
+
+@media screen and (min-width: 0){
+    .project{
+        margin-right: 1rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .project{    
+        margin-right: 2.5rem;
+        width: calc(33% - 2.5rem);
+    }
+}
+
+@media screen and (min-width: 768px){
+    .project{    
+        margin-right: 5rem;
+        width: calc(25% - 5rem);
+    }
+}
+
+
+/*Haciendo responsiva a las imagenes de recetas*/
+
+@media screen and (min-width: 0){
+    .projects{
+        padding: 5rem 0 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .projects{    
+        padding: 5rem 0 0 2.5rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .projects{    
+        padding: 5rem 0 0 5rem;
+    }
+}
